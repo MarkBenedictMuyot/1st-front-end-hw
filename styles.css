@@ -1,0 +1,9 @@
+.frame {
+    width: 75%;
+    height: 350px;
+    margin: 100px auto;
+    box-sizing: content-box;
+    border-radius: 1.5px;
+    border: 4.8px solid black;
+    
+}
