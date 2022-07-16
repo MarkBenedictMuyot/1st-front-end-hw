@@ -1,9 +1,22 @@
 .frame {
-    width: 75%;
-    height: 350px;
+    width: 950px;
+    height: 380px;
     margin: 100px auto;
     box-sizing: content-box;
     border-radius: 1.5px;
     border: 4.8px solid black;
-    
+    flex-wrap: wrap;
+}
+
+button {
+
+    display: block;
+    margin-top:314px;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    background: black;
+    border: 2px solid black;
+    color:white;
+
 }
