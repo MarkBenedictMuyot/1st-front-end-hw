@@ -98,20 +98,6 @@ img {
 }
 
 
-button {
-
-
-    width: 100%;
-    height: 20%;
-    padding: 28px;
-    font-size: 33px;
-    background: rgb(9, 9, 9);
-    border: px solid black;
-    color: rgb(205, 202, 202);
-
-
-
-}
 
 .box {
     background-color: rgb(25, 25, 25);
@@ -199,4 +185,43 @@ li {
     padding-top: 9px;
     padding-left: 0;
 
+}
+
+button {
+
+
+    width: 100%;
+    height: 20%;
+    padding: 28px;
+    font-size: 33px;
+    background: rgb(9, 9, 9);
+    border: px solid black;
+    color: rgb(205, 202, 202);
+
+}
+
+button:hover {
+    background-color: rgb(250, 248, 248);
+    color: black;
+}
+
+.sale {
+    background-color: rgb(219, 33, 33);
+    width: 98px;
+    height: 33px;
+    /* display:inline; */
+    color: white;
+    font-weight: 600;
+
+    padding-top: 12px;
+    margin-left: -52px;
+    margin-top: -25px;
+    position: absolute;
+    text-align: center;
+    font-family: tahoma, sans-serif;
+    letter-spacing: 3px;
+    ;
+    font-size: 15px;
+
+    /* border: 7.0px solid black;  */
 }
