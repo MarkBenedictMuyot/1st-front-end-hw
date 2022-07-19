@@ -4,7 +4,8 @@
     margin: 130px auto;
     box-sizing: content-box;
     border-radius: 1.5px;
-    border: 7.0px solid black;
+    border: 6.5px solid rgb(9, 9, 9);
+    ;
     flex-wrap: wrap;
 
 
@@ -12,7 +13,7 @@
 
 }
 
-.product {
+.heading {
     text-align: center;
     font-size: 35px;
     font-family: tahoma, sans-serif;
@@ -20,6 +21,7 @@
     padding-top: 25px;
     padding-bottom: 26px;
     background-color: rgb(244, 249, 249);
+    color: rgb(45, 41, 41);
 
 
 }
@@ -27,41 +29,60 @@
 .pricing {
     font-weight: 850;
     font-size: 29px;
-    ;
+    order: 1;
     font-family: Verdana;
-    padding: 2px 90px 0px 420px;
-    color: rgb(32, 30, 30)
+    padding: 0px 0px 0px 60px;
+    color: rgb(45, 41, 41);
+    display: flex;
+    float: left;
+    /* border: 7.0px solid black; */
+    order: 1;
+    height: 22%
 }
 
 .description {
-    padding: 0px 400px 5px 420px;
+    padding: 0px 0px 0px 60px;
     font-size: 26px;
     font-family: arial, sans-serif;
     color: rgb(63, 55, 55);
+    order: 2;
+    display: flex;
+    float: left;
+
+    /* border: 7.0px solid black; */
 
 }
 
 .link {
-    padding: 0px 400px 40px 420px;
+    padding: 0px 0px 0px 60px;
     font-size: 25px;
     font-family: arial, sans-serif;
     color: rgb(63, 55, 55);
-
+    order: 3;
     text-decoration: underline;
+    display: flex;
+    float: left;
+    /* border: 7.0px solid black; */
 }
 
 .center {
-    display: inline;
-    float: center;
+    display: flex;
+    flex-direction: column;
+    height: 355px;
+    float: left;
+    /* border: 7.0px solid black; */
+    width: 40%;
 }
 
 span {
-    font-size: 20px;
+    font-size: 18px;
     float: right;
-    padding-right: 46.3%;
+    padding-right: 0px;
     padding-top: 7px;
     color: grey;
     font-weight: 900;
+    padding-left: 110px;
+
 }
 
 
@@ -70,8 +91,9 @@ img {
     width: 29.5%;
     display: flex;
     float: left;
+    filter: brightness(80%) blur(.3px);
 
-
+    /* border: 7.0px solid black; */
 
 }
 
@@ -81,11 +103,12 @@ button {
 
     width: 100%;
     height: 20%;
-    padding: 26px;
+    padding: 28px;
     font-size: 33px;
-    background: black;
-    border: 2px solid black;
+    background: rgb(9, 9, 9);
+    border: px solid black;
     color: rgb(205, 202, 202);
+
 
 
 }
@@ -97,7 +120,7 @@ button {
 }
 
 .box1 {
-    background-color: rgb(60, 50, 244);
+    background-color: rgb(49, 132, 196);
     width: 39px;
     height: 39px;
 }
@@ -118,15 +141,62 @@ button {
     background-color: rgb(85, 188, 70);
     width: 39px;
     height: 39px;
+
 }
 
 .box5 {
-    background-color: rgb(124, 64, 64);
+    background-color: rgb(128, 70, 70);
     width: 39px;
     height: 39px;
+
 }
 
 .coloroption {
-    display: inline-flex;
-    padding: 8px 50px 0px;
+    padding: 40px 0px 0px 60px;
+    justify-content: space-between;
+    margin-right: 26%;
+    order: 4;
+    display: flex;
+    float: left;
+    /* border: 7.0px solid black; */
+}
+
+.rightelement {
+    display: flex;
+    flex-direction: column;
+    height: 355px;
+
+    /* border: 7.0px solid black; */
+}
+
+.righttitle {
+    order: 1;
+    /* border: 7.0px solid black; */
+    height: 17px;
+    text-align: left;
+    font-size: 27px;
+    font-weight: 590;
+    font-family: 'arial', sans-serif;
+    padding-top: 22px;
+    color: rgb(63, 55, 55);
+    padding-left: 15px;
+}
+
+.bulletpoints {
+    order: 2;
+    /* border: 7.0px solid black;  */
+    font-size: 25px;
+    font-family: 'arial', sans-serif;
+    height: 269px;
+    padding: 8px 30px 30px 0px;
+    text-align: left;
+    color: rgb(63, 55, 55);
+    line-height: 1.29em;
+
+}
+
+li {
+    padding-top: 9px;
+    padding-left: 0;
+
 }
